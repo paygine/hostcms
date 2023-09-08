@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<options>
+		<create_module>0</create_module>
+	</options>
+	<fields>
+		<field type="shopList">
+			<caption>Магазин, в который добавить платежную систему</caption>
+			<name>shop_id</name>
+		</field>
+		<field type="input">
+			<caption>Идентификатор сайта в системе Paygine</caption>
+			<value></value>
+			<name>sector</name>
+		</field>
+		<field type="input">
+			<caption>Пароль для формирования цифровой подписи</caption>
+			<value>test</value>
+			<name>password</name>
+		</field>
+		<field type="select">
+			<caption>Режим работы платежной системы</caption>
+			<value>
+				<list value="true">Тестовый</list>
+				<list value="false">Рабочий</list>
+			</value>
+			<name>test_mode</name>
+		</field>
+		<field type="input">
+			<caption>Процент комиссии платежной системы (сверх стоимости заказа)</caption>
+			<value>0</value>
+			<name>fee</name>
+		</field>
+	</fields>
+</module>
